@@ -7,14 +7,15 @@ export function Stats() {
   const stats = [
     { 
       label: "LeetCode", 
-      value: "600+", 
+      value: "1807", 
+      desc: "Max Rating", 
       image: "/leetcode.png",
       alt: "LeetCode Logo",
       link: "https://leetcode.com/u/pluto69"
     },
     { 
       label: "CodeChef", 
-      value: "1798 (3 star)", 
+      value: "1810 (4 star)", 
       desc: "Max Rating", 
       image: "/codechef.jpg", // User uploaded jpg
       alt: "CodeChef Logo",
