@@ -7,7 +7,7 @@ export function Stats() {
   const stats = [
     { 
       label: "LeetCode", 
-      value: "1807", 
+      value: "1855", 
       desc: "Max Rating", 
       image: "/leetcode.png",
       alt: "LeetCode Logo",
@@ -15,7 +15,7 @@ export function Stats() {
     },
     { 
       label: "CodeChef", 
-      value: "1810 (4 star)", 
+      value: "1820 (4 star)", 
       desc: "Max Rating", 
       image: "/codechef.jpg", // User uploaded jpg
       alt: "CodeChef Logo",
