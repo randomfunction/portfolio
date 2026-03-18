@@ -106,11 +106,11 @@ export const PORTFOLIO = {
     }
   ],
   skills: {
-    languages: ["Python", "Java", "C++17/20", "Rust"],
+    languages: ["Python", "Java", "C++17/20", "Rust", "Go"],
     backend: ["FastAPI", "Node.js", "gRPC", "WebSockets", "Microservices"],
-    databases: ["Redis", "PostgreSQL", "MongoDB"],
-    systems: ["Concurrency", "Multithreading", "Lock-free Data Structures", "Linux", "Docker"],
-    ai: ["PyTorch", "CNNs", "GNNs", "Model Optimization"]
+    databases: ["Redis", "PostgreSQL", "MongoDB", "Oracle"],
+    systems: ["Concurrency", "Multithreading", "Linux", "Docker", "Kubernetes", "Terraform"],
+    ai: ["PyTorch", "CNNs", "GNNs", "LangChain", "HuggingFace"]
   },
   achievements: [
     "Top 4% rank (262 / 7000+ teams) - Amazon ML Challenge 2025.",
