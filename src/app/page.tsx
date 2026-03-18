@@ -16,33 +16,21 @@ export default function Home() {
           <Stats />
         </div>
 
-        {/* SDE & ML Projects Section */}
-        <section className="mb-24">
-          <div className="mb-10 flex items-center gap-4">
-            <h2 className="text-2xl font-bold text-white">SDE + ML Engineering</h2>
-            <div className="h-px flex-1 bg-zinc-800" />
-          </div>
-          
-          <div className="grid gap-6">
-            {PORTFOLIO.sdeProjects.map((project, index) => (
-              <ProjectCard key={project.title} project={project} index={index} />
-            ))}
-          </div>
-        </section>
-
-        {/* Research Projects Section */}
-        <section className="mb-24">
-          <div className="mb-10 flex items-center gap-4">
-            <h2 className="text-2xl font-bold text-white">Research Oriented</h2>
-            <div className="h-px flex-1 bg-zinc-800" />
-          </div>
-          
-          <div className="grid gap-6">
-            {PORTFOLIO.researchProjects.map((project, index) => (
-              <ProjectCard key={project.title} project={project} index={index} />
-            ))}
-          </div>
-        </section>
+        {/* Role-based Projects Section */}
+        {PORTFOLIO.roleBasedProjects.map((roleSection, index) => (
+          <section key={roleSection.role} className="mb-24">
+            <div className="mb-10 flex items-center gap-4">
+              <h2 className="text-2xl font-bold text-white">{roleSection.role}</h2>
+              <div className="h-px flex-1 bg-zinc-800" />
+            </div>
+            
+            <div className="grid gap-6">
+              {roleSection.projects.map((project, pIndex) => (
+                <ProjectCard key={project.title} project={project} index={pIndex} />
+              ))}
+            </div>
+          </section>
+        ))}
 
         {/* Skills Section */}
         <section className="mb-24">
