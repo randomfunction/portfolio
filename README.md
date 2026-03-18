@@ -29,7 +29,3 @@ A minimalist, high-performance portfolio website built to showcase engineering p
 - `src/app`: Page layouts and global styles.
 - `src/components`: Reusable UI components (Hero, Stats, ProjectCard).
 - `src/data`: Resume content and static data.
-
-## 🚢 Deployment
-
-Ready to deploy on [Vercel](https://vercel.com/new).
